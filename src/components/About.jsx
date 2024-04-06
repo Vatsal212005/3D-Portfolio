@@ -40,14 +40,14 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-As a proficient software developer, I bring extensive experience in Python and JavaScript, complemented by expertise in prominent frameworks such as React and Node.js. My aptitude for rapid learning enables me to effectively collaborate with clients, ensuring the development of efficient, scalable, and intuitive solutions tailored to address tangible challenges. Let's collaborate to transform your concepts into reality!
+As a proficient software developer, I bring extensive experience in Python and JavaScript, complemented by expertise in prominent frameworks such as React and Django. My aptitude for rapid learning enables me to effectively collaborate with clients, ensuring the development of efficient, scalable, and intuitive solutions tailored to address tangible challenges. Let's collaborate to transform your concepts into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
